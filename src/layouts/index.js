@@ -4,8 +4,8 @@ import Helmet from 'react-helmet'
 
 import Header from '../components/header'
 import './index.css'
-import './normalize.css'
-import './reset.css'
+// import './normalize.css'
+// import './reset.css'
 
 const Layout = ({ children, data }) => (
   <div>
@@ -16,7 +16,7 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    <Header siteTitle={data.site.siteMetadata.title}/>
+    {children()}
   </div>
 )
 

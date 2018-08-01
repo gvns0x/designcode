@@ -11,6 +11,10 @@ const h1Size = '30px';
 const h2Size = '18px';
 
 export const styles = {
+    colors: {
+        dark: dark,
+        blue: blue
+    },
     textStyles: {
         textNormal: {
             fontFamily: fontFamily,
@@ -39,7 +43,8 @@ export const styles = {
             fontFamily: titleFont,
             fontSize: h1Size,
             color: dark,
-            fontWeight: fontWeight
+            fontWeight: fontWeight,
+            margin: 0
         },
         titleH2: {
             fontFamily: titleFont,
