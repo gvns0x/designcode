@@ -24,6 +24,63 @@ a:hover {
   justify-content: center;
 }
 
+
+/* Form */
+
+.Form {
+  display:flex;
+  flex-direction:column;
+  width:100%;
+}
+
+.Form
+
+.Form-label {
+  opacity:0;
+}
+
+.Form-field {
+  width:99.5%;
+  font-size:16px;
+  font-family: 'Playfair Display', serif;
+  outline: none;
+  border:none;
+  border-bottom: 1px solid #B9B9B9;
+  padding-bottom:8px;
+  margin-bottom:24px;
+}
+
+.Form-field::placeholder {
+  color:#B9B9B9;
+}
+
+.Form-name {
+  
+}
+
+.Form-email {
+
+}
+
+.Form-social svg {
+  fill:#B9B9B9;
+}
+
+.Form-button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 16px;
+    padding: 12px;
+    color: #fff;
+    font-weight: 800;
+    background-color: #162BF4;
+    position: relative;
+    opacity:.2;
+    width:100%;
+}
+
 .Hero svg {
   display:none;  
 

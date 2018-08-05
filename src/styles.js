@@ -9,6 +9,7 @@ const blue = "#162BF4";
 const titleFont = 'Open Sans Condensed, sans-serif';
 const h1Size = '30px';
 const h2Size = '18px';
+const labelSize = '12px';
 
 export const styles = {
     colors: {
@@ -20,7 +21,9 @@ export const styles = {
             fontFamily: fontFamily,
             fontSize: fontSize,
             color: dark,
-            lineHeight: lineHeight
+            lineHeight: lineHeight,
+            margin: '0',
+            marginBottom: "24px"
         },
         textBold: {
             fontFamily: fontFamily,
@@ -36,7 +39,7 @@ export const styles = {
             lineHeight: lineHeight,
             fontWeight: fontWeight,
             fontStyle: italic 
-        }
+        },
     },
     titleStyles: {
         titleH1: {
@@ -44,12 +47,22 @@ export const styles = {
             fontSize: h1Size,
             color: dark,
             fontWeight: fontWeight,
-            margin: 0
+            margin: "0",
+            marginBottom: "24px"
         },
         titleH2: {
             fontFamily: titleFont,
             fontSize: h2Size,
             color: dark
+        },
+        titleLabel: {
+            fontFamily: titleFont,
+            fontSize: labelSize,
+            color: dark,
+            lineHeight: '24px',
+            fontWeight: fontWeight,
+            margin: '0',
+            textTransform: 'uppercase'
         }
     }
 };

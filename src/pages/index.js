@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import Header from '../components/header'
 import styled from 'styled-components'
 import CaseStudies from '../components/cases'
+import Form from '../components/form'
 
 const Main = styled.div`
   overflow-x: hidden;
@@ -20,6 +21,7 @@ const IndexPage = () => (
     </div>
     <Header/>
     <CaseStudies />
+    <Form />
   </Main>
 )
 
