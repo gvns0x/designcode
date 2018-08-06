@@ -15,14 +15,19 @@ const FormContainer = styled.div`
 `
 
 const FormDiv = styled.div`
-    margin-left: ${props => props.sideMargin};
-    margin-right: ${props => props.sideMargin};
-    margin-top: ${props => props.top};
-    margin-bottom: ${props => props.bot};
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 0px;
+    margin-bottom: 48px;
     display:grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;
     max-width:906px;
+
+    @media only screen and (min-width:550px) {
+        margin-left: 88px;
+        margin-right: 88px;
+    }
 
     @media only screen and (min-width:800px) {
         grid-template-columns: 1fr 1fr;
@@ -100,7 +105,7 @@ const FormSocialIconsFacebook = styled.div`
 
 const Form = (props) => (
     <FormContainer>
-        <FormDiv sideMargin={"24px"} top={"48px"} bot={"48px"}>
+        <FormDiv>
             <FormContent>
                 <h1 style={styles.titleStyles.titleH1}>Let's work together</h1>
                 <p style={styles.textStyles.textNormal}>I’d love to hear more about your project and how I can help. Tell me more about it — I’ll be in touch as soon as possible.</p>

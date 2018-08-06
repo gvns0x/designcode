@@ -19,20 +19,17 @@ const HeaderDiv = styled.div`
 `
 
 const Content = styled.div`
-  margin-left: ${props => props.sideMargin};
-  margin-right: ${props => props.sideMargin};
-  margin-top: ${props => props.top};
-  margin-bottom: ${props => props.bot};
+  margin-left: 24px;
+  margin-right: 24px;
   display:flex;
   flex-direction:column;
   justify-content:center;
   position: relative;
   grid-row: 2 / 3;
   grid-column: 2/3;
-  @media only screen and (min-width: 500px) {
-    bottom:0;
-    margin-left:24px;
-    margin-right: 24px;
+  @media only screen and (min-width: 550px) {
+    margin-left:88px;
+    margin-right: 88px;
   }
 
   @media only screen and (min-width: 800px) {
@@ -76,7 +73,7 @@ const Text = styled.div`
 
 const Header = ({ siteTitle }, props) => (
 <HeaderDiv>
-    <Content sideMargin={"24px"}>
+    <Content>
       <h1 style={styles.titleStyles.titleH1}>João Araújo</h1>
       <AllText>
       <Text top={"16px"}bot={"24px"} right={"54px"}>
