@@ -131,7 +131,7 @@ const Form = (props) => (
                 </form>
             </FormFields>
             <FormSocial>
-                <p style={styles.textStyles.textNormal}>You can also <a href="#" style={styles.textStyles.textLink}>send me an e-mail to hi@juauz.com</a> or find me on the web.</p>
+                <p style={styles.textStyles.textNormal}>You can also <a href="#">send me an e-mail to hi@juauz.com</a> or find me on the web.</p>
                 <FormSocialIcons>
                     <FormSocialIconsBehance>
                     <a href="#" alt="behance link" className="Form-social">
