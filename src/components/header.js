@@ -8,8 +8,9 @@ const HeaderDiv = styled.div`
   position: relative;
   overflow-x: hidden;
   display: grid;
-  grid-template-columns: auto minmax(auto, 906px) auto;
-  grid-template-rows: auto 1fr auto;
+  grid-template-columns: minmax(auto, 906px);
+  grid-template-rows: 5fr 1fr;
+  justify-content:center;
   @media only screen and (min-height:568px) {
     grid-template-rows: 2fr 4fr 1fr;
   }
@@ -26,7 +27,7 @@ const Content = styled.div`
   justify-content:center;
   position: relative;
   grid-row: 2 / 3;
-  grid-column: 2/3;
+  grid-column: 1/2;
   @media only screen and (min-width: 550px) {
     margin-left:88px;
     margin-right: 88px;
@@ -36,6 +37,11 @@ const Content = styled.div`
     display: flex;
     flex-direction: column;
   }
+
+  @media only screen and (min-width:1082px) {
+    width: 906px;
+  }
+
 `
 const AllText = styled.div`
   margin-top:0px;
