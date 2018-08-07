@@ -4,6 +4,8 @@ import Header from '../components/header'
 import styled from 'styled-components'
 import CaseStudies from '../components/cases'
 import Form from '../components/form'
+require('typeface-open-sans-condensed')
+require('typeface-playfair-display')
 
 const Main = styled.div`
   overflow-x: hidden;
