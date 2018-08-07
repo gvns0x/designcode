@@ -127,7 +127,7 @@ const Form = (props) => (
                     <h3 className="Form-label" style={styles.titleStyles.titleLabel}>How can I help?</h3>
                     <textarea name="message" className="Form-message Form-field" placeholder="Your message" id="msg-field"/>
                     </Form-block>
-                    <input className="Form-button" type="submit" value="Send message" />
+                    <input className="Form-button" disabled type="submit" value="Send message" />
                 </form>
             </FormFields>
             <FormSocial>
