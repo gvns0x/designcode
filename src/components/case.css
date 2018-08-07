@@ -1,0 +1,34 @@
+.Case {
+    cursor: pointer;
+    width:100%;
+    max-width:372px;
+    height: 304px;
+    margin-bottom: 32px;
+    overflow: hidden;
+    position: relative;
+    transition: 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+    @media only screen and (min-width:800px) {
+        display:block;
+        max-width:100%;
+        margin-bottom: 56px;
+    }
+}
+
+.Case-img {
+    top:0px;
+    position: absolute;
+    z-index: -1;
+    height: 110%;
+    transition: 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+    background-image: url('https://cdn.wccftech.com/wp-content/uploads/2018/04/Spider-Man_PS4_Crouch.jpg');
+}
+
+.Case:hover {
+    transform: scale(1.1,1.1);
+    box-shadow: 0 30px 60px rgba(0,0,0,0.5);
+}
+
+.Card:hover .Case-img {
+    transform: scale(1.5,1.5);
+}

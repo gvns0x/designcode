@@ -37,7 +37,7 @@ const CaseStudies = (props) => (
         <CaseStudiesDiv>
             <Case image="https://statig3.akamaized.net/bancodeimagens/4j/1n/nj/4j1nnjmn36tchawzindp9errw.jpg" title="Case Study title goes here" description="Case study description goes here"/>
 
-            <Case image="https://statig3.akamaized.net/bancodeimagens/4j/1n/nj/4j1nnjmn36tchawzindp9errw.jpg" title="Case Study title goes here" description="Case study description goes here"/>
+            <Case image="https://images.pexels.com/photos/68147/waterfall-thac-dray-nur-buon-me-thuot-daklak-68147.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" title="Case Study title goes here" description="Case study description goes here"/>
 
             <Case image="https://statig3.akamaized.net/bancodeimagens/4j/1n/nj/4j1nnjmn36tchawzindp9errw.jpg" title="Case Study title goes here" description="Case study description goes here"/>
         </CaseStudiesDiv>

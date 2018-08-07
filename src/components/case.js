@@ -1,28 +1,7 @@
 import React from 'react'
 import { styles } from '../styles.js'
 import styled from 'styled-components'
-
-const CaseStudy = styled.div`
-    cursor: pointer;
-    width:100%;
-    max-width:372px;
-    margin-bottom: 32px;
-
-    @media only screen and (min-width:800px) {
-        display:block;
-        max-width:100%;
-        margin-bottom: 56px;
-    }
-`
-
-const CaseStudyImg = styled.div `
-    background: url(${props => props.image});
-    background-size: cover;
-    background-position: center;
-    height:383px;
-    max-width:372px;
-    width:100%;
-`
+import './case.css'
 
 const Title = styled.h2 `
     ${styles.titleStyles.titleH2}
@@ -38,11 +17,11 @@ const Description = styled.p`
 
 const Case = (props) => (
 
-    <CaseStudy image={props.image}>
-        <CaseStudyImg image={props.image}></CaseStudyImg>
-            <Title>{props.title}</Title>
-            <Description>{props.description}</Description>
-    </CaseStudy>
+    <div className="Case" image={props.image}>
+        <div className="Case-img"></div>
+        <Title>{props.title}</Title>
+        <Description>{props.description}</Description>
+    </div>
 )
 
 export default Case
