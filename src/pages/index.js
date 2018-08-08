@@ -1,11 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import Header from '../components/header'
-import styled from 'styled-components'
-import CaseStudies from '../components/cases'
-import Form from '../components/form'
 require('typeface-open-sans-condensed')
 require('typeface-playfair-display')
+import Header from '../components/header'
+import CaseStudies from '../components/cases'
+import Form from '../components/form'
+import styled from 'styled-components'
 
 const Main = styled.div`
   overflow-x: hidden;
