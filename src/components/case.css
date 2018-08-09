@@ -2,6 +2,7 @@
     max-width:372px;
     width: 100%;
     margin-bottom:32px;
+    cursor: pointer;
 
     @media only screen and (min-width:800px) {
         margin-bottom: 56px;
@@ -9,7 +10,6 @@
 }
 
 .Case {
-    cursor: pointer;
     width:100%;
     max-width:372px;
     height: 304px;
@@ -24,9 +24,13 @@
     top:0px;
     height: 110%;
     transition: 0.8s;
+
+    @media only screen and (min-width: 800px) {
+        opacity:.85;
+    }
 }
 
-.Case:hover {
+.CaseDiv:hover .Case {
 
     @media only screen and (min-width:800px) {
         transform: scale(1.01,1.01);
@@ -34,9 +38,10 @@
     }
 }
 
-.Case:hover img {
+.CaseDiv:hover img {
 
     @media only screen and (min-width:800px) {
         transform: translateY(-20px);
+        opacity:1;
     }
 }
