@@ -18,7 +18,7 @@ const Description = styled.p`
 const Case = (props) => (
 
     <div className="Case" image={props.image}>
-        <div className="Case-img"></div>
+        <img src="http://similimusica.com.br/wp-content/uploads/2018/01/organizando-a-orquestra-sinfonica.jpg" className="Case-img" />
         <Title>{props.title}</Title>
         <Description>{props.description}</Description>
     </div>
